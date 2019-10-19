@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-typescript_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc -p ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akim1995/nodeJS-typescript_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akim1995/nodeJS-typescript_api/issues"
+  },
+  "homepage": "https://github.com/akim1995/nodeJS-typescript_api#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.11.1",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
