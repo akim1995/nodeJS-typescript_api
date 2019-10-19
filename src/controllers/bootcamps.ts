@@ -2,7 +2,7 @@
 // @route   GET /api/v1/bootcamps
 // @access  Pubilic
 import { Request, Response } from "express";
-export const bootcampsRouter = (req: Request, res: Response) => {
+export const getBootcamps = (req: Request, res: Response) => {
   res.json({ success: true, msg: "Get all bootcamps" });
 };
 

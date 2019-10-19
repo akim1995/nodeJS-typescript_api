@@ -3,7 +3,7 @@ import * as controllers from "../controllers/bootcamps";
 const bootcampsRouter = Router();
 bootcampsRouter
   .route("/")
-  .get(controllers.getBootcamp)
+  .get(controllers.getBootcamps)
   .post(controllers.createBootcamp);
 
 bootcampsRouter
